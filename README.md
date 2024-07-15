@@ -35,18 +35,28 @@ spring.datasource.password=tupassword
 ## 🚀 Uso
 Para interactuar con la API, puedes usar herramientas como Insomnia o Postman.
 
+## 🛠️ Tecnologías Utilizadas
+- Java 17
+- Spring Boot 3.3.1
+- Spring Security
+- JWT para Autenticación
+- MySQL
+- Flyway para Migraciones de Base de Datos
+- Maven
+
 ## 🔄 Endpoints
 
 🔐 Autenticación
-Registra un nuevo usuario:
+- Registra un nuevo usuario:
 POST /auth/register
+```http
 {
     "nombre": "Juan Perez",
     "correo_electronico": "juan.perez@example.com",
     "contrasena": "password123"
-}
+} 
 
-Tópicos
+- Tópicos
 POST /topicos
 {
     "titulo": "Nuevo Tópico",
@@ -55,7 +65,7 @@ POST /topicos
     "curso": "Spring Boot"
 }
 
-Obtener Todos los Tópicos
+- Obtener Todos los Tópicos
 PUT /topicos/{id}
 {
     "titulo": "Tópico Actualizado",
@@ -64,7 +74,7 @@ PUT /topicos/{id}
     "curso": "Spring Boot"
 }
 
-Actualizar Tópico
+- Actualizar Tópico
 PUT /topicos/{id}
 {
     "titulo": "Tópico Actualizado",
@@ -73,19 +83,5 @@ PUT /topicos/{id}
     "curso": "Spring Boot"
 }
 
-Eliminar Tópico
+- Eliminar Tópico
 DELETE /topicos/{id}
-
-## 🛠️ Tecnologías Utilizadas
-Java 17
-Spring Boot 3.3.1
-Spring Security
-JWT para Autenticación
-MySQL
-Flyway para Migraciones de Base de Datos
-Maven
-
-
-
-
-
