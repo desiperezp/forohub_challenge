@@ -2,17 +2,17 @@
 ¡Bienvenido al ForoHub Challenge! Este proyecto es una API RESTful desarrollada con Spring Boot, que proporciona funcionalidades para gestionar tópicos en un foro.
 
 ## 📑 Tabla de Contenidos
-Características
-Instalación
-Uso
-Endpoints
-Tecnologías Utilizadas
-Estructura del Proyecto
+- Características
+- Instalación
+- Uso
+- Endpoints
+- Tecnologías Utilizadas
+- Estructura del Proyecto
 
 ## 🌟 Características
-🔒 Autenticación de usuarios con JWT
-📝 Operaciones CRUD para tópicos
-🛡️ Control de acceso basado en roles
+- 🔒 Autenticación de usuarios con JWT
+- 📝 Operaciones CRUD para tópicos
+- 🛡️ Control de acceso basado en roles
 
 ## 🛠️ Instalación
 Clona el repositorio:
@@ -29,9 +29,9 @@ Asegúrate de tener una base de datos MySQL en funcionamiento.
 Crea una base de datos llamada forohub.
 
 Actualiza la configuración de la base de datos en src/main/resources/application.properties:
-spring.datasource.url=jdbc:mysql://localhost:3306/forohub
-spring.datasource.username=tuusuario
-spring.datasource.password=tupassword
+- spring.datasource.url=jdbc:mysql://localhost:3306/forohub
+- spring.datasource.username=tuusuario
+- spring.datasource.password=tupassword
 
 ## 🚀 Uso
 Para interactuar con la API, puedes usar herramientas como Insomnia o Postman.
