@@ -18,7 +18,8 @@ Estructura del Proyecto
 Clona el repositorio:
 
 Copiar código
-git clone https://github.com/yourusername/forohub-challenge.git
+git clone https://github.com/desiperezp/forohub_challenge
+
 cd forohub-challenge
 
 ## Configura la base de datos:
